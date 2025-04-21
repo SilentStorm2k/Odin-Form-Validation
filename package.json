@@ -1,0 +1,39 @@
+{
+    "name": "name",
+    "version": "1.0.0",
+    "description": "<!-- Copyright notice for this README.md template -->",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "check-format": "prettier --check .",
+        "format": "prettier --write .",
+        "build": "npm run format && webpack --config webpack.prod.js",
+        "start": "webpack serve --open --config webpack.dev.js",
+        "push": "bash gh-pages-deploy.sh",
+        "deploy": "npm run build && npm run push"
+    },
+    "keywords": [],
+    "author": "SilentStorm2k (https://github.com/SilentStorm2k)",
+    "license": "MIT",
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "html-loader": "^5.1.0",
+        "html-webpack-plugin": "^5.6.0",
+        "prettier": "^3.5.3",
+        "style-loader": "^4.0.0",
+        "ts-loader": "^9.5.1",
+        "tsc": "^2.0.4",
+        "typescript": "^5.6.2",
+        "webpack": "^5.95.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    },
+    "homepage": "https://github.com/SilentStorm2k/",
+    "bugs": {
+        "url": "https://github.com/SilentStorm2k/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SilentStorm2k/"
+    }
+}
