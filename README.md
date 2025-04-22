@@ -50,7 +50,7 @@ SOFTWARE. -->
 <h3 align="center">Form Validation in TS</h3>
 
   <p align="center">
-    Simple custom form validation in TS I played around with using the JS form validation API, and RESTCountries API
+    Simple custom form validation in TS I played around with using the JS Constraint validation API, and RESTCountries API for The Odin Project
     <br />
     <a href="https://github.com/SilentStorm2k/Odin-Form-Validation"><strong>Explore the docs »</strong></a>
     <br />
@@ -82,8 +82,6 @@ SOFTWARE. -->
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `SilentStorm2k`, `Odin-Form-Validation`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 A project to showcase what I've learnt using the FormValidation API, and setting custom form validation for a typical form element in TS. I also incorporated the REST countries API to check if the country and postal code entered are valid.
 
