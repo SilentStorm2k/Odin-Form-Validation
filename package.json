@@ -1,5 +1,5 @@
 {
-    "name": "name",
+    "name": "odin-form-validation",
     "version": "1.0.0",
     "description": "<!-- Copyright notice for this README.md template -->",
     "main": "index.js",
@@ -28,12 +28,12 @@
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^5.1.0"
     },
-    "homepage": "https://github.com/SilentStorm2k/",
+    "homepage": "https://github.com/SilentStorm2k/Odin-Form-validation",
     "bugs": {
-        "url": "https://github.com/SilentStorm2k/"
+        "url": "https://github.com/SilentStorm2k/Odin-Form-validation"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SilentStorm2k/"
+        "url": "git+https://github.com/SilentStorm2k/Odin-Form-validation"
     }
 }
